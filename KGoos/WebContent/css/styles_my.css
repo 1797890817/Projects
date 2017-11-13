@@ -262,6 +262,7 @@ legend{ width: 100%; display: block; margin: 0 0 20px 0; padding: 0 0 15px 0; bo
 .footer_wrapper .qr-code2 .text{ color: #1ba2e6;line-height: 16px; text-align: center;}
 .footer_wrapper .qr-code2 .text a{ color: #1ba2e6; }
 
+/* 页脚的部分样式设定*/
 .footer_bottom{ background: #34394e; text-align: center; line-height: 0; padding: 28px 0;}
 .footer_bottom .bottom-wrapper{ display: inline-block;}
 .footer_bottom .copyright{ float: left; color: #b2b3b9; font-size: 12px; line-height: 16px; margin-right: 38px;}

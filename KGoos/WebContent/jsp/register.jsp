@@ -49,56 +49,56 @@
 				<div class="center_right">
 					<div class="frame">
 						<div class="frameTops">
-							<h3>注册BUYUP會員</h3>
+							<h3>注册KGOOS会员</h3>
 							<p>
-								已有帳戶!&nbsp;&nbsp;<a href="cut_login.jsp" target="_blank">立即登录</a>
+								已有账号!&nbsp;&nbsp;<a href="cut_login.jsp" target="_blank">立即登录</a>
 							</p>
 						</div>
 						<table style="width: 100%">
 							<tr>
-								<td class="td1">電郵:</td>
+								<td class="td1">邮件地址:</td>
 								<td class="td2"><input type="text" id="email"
 									class="textbox_style" style="width: 220px; height: 28px"
 									placeholder="e.g. abc@hotmail.com" />*</td>
 								<td class="td3"><div id="emailJS"></div></td>
 							</tr>
-							<tr>
+<!-- 							<tr>
 								<td class="td1">電郵確認:</td>
 								<td class="td2"><input type="text" id="reemail"
 									class="textbox_style" style="width: 220px; height: 28px"
 									placeholder="e.g. abc@hotmail.com" />*</td>
 								<td class="td3"><div id="reemailJS"></div></td>
-							</tr>
+							</tr> -->
 							<tr>
-								<td class="td1">密碼:</td>
+								<td class="td1">密码:</td>
 								<td class="td2"><input type="password" id="paw"
 									class="textbox_style" style="width: 220px; height: 28px"
-									placeholder="不能輸入空格和特殊字符" />*</td>
+									placeholder="不能输入空格和特殊字符" />*</td>
 								<td class="td3"><div id="pawJS"></div></td>
 							</tr>
-							<tr>
+<!-- 							<tr>
 								<td class="td1" style="height: 40px">密碼確認:</td>
 								<td class="td2" style="height: 40px"><input type="password"
 									id="repaw" class="textbox_style"
 									style="width: 220px; height: 28px" placeholder="密碼確認" />*</td>
 								<td class="td3"><div id="repawJS"></div></td>
-							</tr>
+							</tr> -->
 							<tr>
-								<td class="td1">淘寶帳號:</td>
+								<td class="td1">淘宝账号:</td>
 								<td class="td2"><input type="text" id="tbaccount"
 									class="textbox_style" style="width: 220px; height: 28px"
-									placeholder="e.g. 張東方" />* <a href="javascript:void(0)"><img
+									placeholder="例如: 李四" />* <a href="javascript:void(0)"><img
 										class="icon tips" src="<%=request.getContextPath() %>/images/images_user/help.gif"
 										onclick="showem1()" id="helpimg"
 										alt="what is the taobao account" /></a> <em class="message_hover"
-									id="em1">您在淘寶網上註冊的帳號</em></td>
+									id="em1">您的淘宝账号</em></td>
 								<td class="td3"><div id="tbaccountJS"></div></td>
 							</tr>
 							<tr>
-								<td class="td1">本站用戶名:</td>
+								<td class="td1">本站用户名:</td>
 								<td class="td2"><input type="text" id="nickname"
 									class="textbox_style" style="width: 220px; height: 28px"
-									placeholder="e.g. 張東方" />*</td>
+									placeholder="例如: 李四" />*</td>
 								<td class="td3"><div id="nicknameJS"></div></td>
 							</tr>
 							<tr>
@@ -106,9 +106,9 @@
 								<td class="td2"><input type="text" id="introducer"
 									class="textbox_style" style="width: 220px; height: 28px"
 									placeholder="e.g. B801" /></td>
-								<td class="td3" style="line-height: 25px">輸入推薦人的<font
-									style="color: #ff0877">會員編號</font>&nbsp; <a
-									href="points_bonus.html" target="_blank" class="btn_greensmall">詳情</a></td>
+								<td class="td3" style="line-height: 25px">输入推荐人的<font
+									style="color: #ff0877">会员ID</font>&nbsp; <a
+									href="points_bonus.html" target="_blank" class="btn_greensmall">详情</a></td>
 							</tr>
 							<tr>
 								<td class="td1">验证码:</td>
@@ -118,11 +118,11 @@
 											<td><input type="text" id="confirmcode"
 												class="textbox_style" style="width: 80px; height: 28px" /></td>
 											<td><img id="img1" src="image.aspx" width="70px"
-												height="30px" border="0" alt="驗證碼" /></td>
+												height="30px" border="0" alt="验证码" /></td>
 											<td><a style="color: #0093dd" href="#"
 												onclick="changepic()"><img
 													src="<%=request.getContextPath() %>/images/images_user/loginandreg/register_refersh.png"
-													alt="change to others" />換一張</a></td>
+													alt="change to others" />刷新一下</a></td>
 										</tr>
 									</table>
 								</td>
@@ -134,7 +134,7 @@
 									<table>
 										<tr style="height: 25px; line-height: 25px; font-size: 12px">
 											<td><input type="checkbox" id="allowsendmail" value="" /></td>
-											<td>同意接收本站所發出的電郵</td>
+											<td>同意接收本站所发送的Email</td>
 										</tr>
 									</table>
 								</td>

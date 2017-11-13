@@ -56,29 +56,29 @@
 						<div class="frame">
 							<div class="divnull"></div>
 							<div class="frameTops">
-								<h3>BUYUP會員登入</h3>
+								<h3>KGOOS会员登录</h3>
 								<p>
-									還沒有帳戶？&nbsp;&nbsp;<a href="register.jsp" target="_blank">立即注册</a>
+									没有账号？&nbsp;&nbsp;<a href="register.jsp" target="_blank">马上注册</a>
 								</p>
 							</div>
 
 							<div>
-								電郵 :&nbsp; <input name="txtusername" type="text"
+								邮件 :&nbsp; <input name="txtusername" type="text"
 									id="txtusername" class="textbox_style"
 									style="width: 250px; height: 30px" />
 							</div>
 							<div>
-								密碼 :&nbsp; <input name="txtpass" type="password" id="txtpass"
+								密码 :&nbsp; <input name="txtpass" type="password" id="txtpass"
 									class="textbox_style" style="width: 250px; height: 30px" />
 							</div>
 							<div style="margin-left: 30px; margin-top: 10px;">
-								<input type="submit" name="cmdlogin" value="登 入" id="cmdlogin"
+								<input type="submit" name="cmdlogin" value="登 录" id="cmdlogin"
 									class="tbn_dc btn_dcblue_log" style="width: 250px;" />
 
 							</div>
 							<div class="frameTops">
 								<p>
-									<a href="forgetpaw.html" target="_blank">忘記密碼?</a>
+									<a href="forgetpaw.html" target="_blank">忘密码了?</a>
 								</p>
 							</div>
 						</div>
