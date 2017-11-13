@@ -27,21 +27,16 @@
 	<jsp:include page="jsp/pageHeader.jsp" ></jsp:include>	<!-- 引入导航头部 -->
 		<div class="page-main">
 			<div class="banner_slider">
-				<div class="banner-content">
+				<div class="banner-content" >
 					<div class="banner-item">
 						<a href="cn_app.html" title="Banner 1"
-							style="background-image: url(images/banners/home_banner_06.jpg);">Banner
+							style="background-image: url(images/banners/home_banner_2.jpg);">Banner
 							1</a>
 					</div>
 					<div class="banner-item">
 						<a href="points_bonus.html" title="Banner 2" target="_blank"
-							style="background-image: url(images/banners/banner-points-bonus.jpg);">Banner
+							style="background-image: url(images/banners/home_banner_6.jpg);">Banner
 							2</a>
-					</div>
-					<div class="banner-item">
-						<a href="cn-to-xmt-intro.html" title="Banner 3" target="_blank"
-							style="background-image: url(images/banners/home_banner_2.jpg);">Banner
-							3</a>
 					</div>
 				</div>
 				<div class="banner-controls">

@@ -11,6 +11,27 @@
 			<div class="navigation">
 				<ul class="menu">
 					<li class="active"><a href="index.jsp" title="首页"><span>首页</span></a></li>
+					<li class="active" onmousemove="showmenu_header(this)"
+						onmouseout="hidemenu_header(this)"><a href="index.jsp"
+						title="我要集运"><span>我要集运</span></a>
+						<ul>
+							<li><a href="memapply_cntohk.aspx">1大陆地址</a></li>
+							<li><a href="memapply_cntohk.aspx">2包裹登记</a></li>
+							<li><a href="memapply_cntohk.aspx">3申请打包</a></li>
+							<li><a href="memapply_cntohk.aspx">4物流查询</a></li>
+							<li><a href="memapply_cntohk.aspx">默认地址</a></li>
+							<li><a href="memapply_cntohk.aspx">修改密码</a></li>
+						</ul></li>
+					<li class="active" onmousemove="showmenu_header(this)"
+						onmouseout="hidemenu_header(this)"><a href="index.jsp"
+						title="集运服务"> <span>集运服务</span></a>
+						<ul>
+							<li><a href="memapply_cntohk.aspx">集运收费</a></li>
+							<li><a href="memapply_cntohk.aspx">集运教程</a></li>
+							<li><a href="memapply_cntohk.aspx">一般条款规则</a></li>
+							<li><a href="memapply_cntohk.aspx">承运契约条款</a></li>
+						</ul></li>
+
 					<li onmousemove="showmenu_header(this)"
 						onmouseout="hidemenu_header(this)"><a
 						href="cn-warehouse.html"><span>国内仓库集运</span></a>
@@ -60,6 +81,9 @@
 								</ul></li>
 						</ul></li>
 					<li><a href="jsp/cn_inquire.jsp" title="物流跟踪"><span>物流跟踪</span></a></li>
+					<li><a href="jsp/cn_inquire.jsp" title="最新消息"><span>最新消息</span></a></li>
+					<li><a href="jsp/cn_inquire.jsp" title="常见问题"><span>常见问题</span></a></li>
+					<li><a href="jsp/cn_inquire.jsp" title="联系我们"><span>联系我们</span></a></li>
 				</ul>
 			</div>
 		</div>
